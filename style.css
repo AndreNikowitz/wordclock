@@ -9,8 +9,8 @@
 	--bg: #FFFFFF; 
 	--fg: #191919; 
 	--primary: hsl(var(--hue),90%,50%);
-	--trans-dur: 0.3s;
-	font-size: calc(20px + (60 - 20) * (100vw - 320px) / (2560 - 320));
+	--trans-dur: 1s;
+	font-size: calc(60px + (60 - 20) * (100vw - 320px) / (2560 - 320));
 }
 body {
 	background-color: var(--bg);
@@ -37,7 +37,7 @@ body {
 	font-weight: 600;
 }
 .clock__word--fade-fly-in {
-	animation: fade-fly-in 0.6s cubic-bezier(0.65,0,0.35,1);
+	animation: fade-fly-in 1.7s cubic-bezier(0.65,0,0.35,1);
 }
 /* Dark theme */
 @media (prefers-color-scheme: dark) {
